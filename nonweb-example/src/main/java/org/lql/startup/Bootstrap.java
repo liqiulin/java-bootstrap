@@ -1,4 +1,4 @@
-package startup;
+package org.lql.startup;
 
 /**
  * Created by liqiulin on 2016/12/13.

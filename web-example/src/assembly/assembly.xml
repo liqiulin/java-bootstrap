@@ -1,0 +1,39 @@
+<assembly>
+    <id>package</id>
+    <formats>
+        <format>dir</format>
+    </formats>
+    <includeBaseDirectory>false</includeBaseDirectory>
+    <fileSets>
+        <fileSet>
+            <directory>src/bin</directory>
+            <outputDirectory>bin</outputDirectory>
+            <includes>
+                <include>*.sh</include>
+            </includes>
+            <lineEnding>unix</lineEnding>
+            <fileMode>0755</fileMode>
+        </fileSet>
+        <!-- WEB-INF -->
+        <fileSet>
+            <directory>src/main/webapp</directory>
+            <outputDirectory></outputDirectory>
+        </fileSet>
+        <!-- classes -->
+        <fileSet>
+            <directory>${project.build.directory}/classes</directory>
+            <outputDirectory>WEB-INF/classes</outputDirectory>
+        </fileSet>
+
+    </fileSets>
+    <!-- 依赖jar包 -->
+    <dependencySets>
+        <dependencySet>
+            <outputDirectory>WEB-INF/lib</outputDirectory>
+            <excludes>
+                <exclude>com.jd:web-example</exclude>
+            </excludes>
+        </dependencySet>
+    </dependencySets>
+
+</assembly>

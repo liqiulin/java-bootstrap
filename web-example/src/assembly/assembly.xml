@@ -31,7 +31,7 @@
         <dependencySet>
             <outputDirectory>WEB-INF/lib</outputDirectory>
             <excludes>
-                <exclude>com.jd:web-example</exclude>
+                <exclude>org.lql:web-example</exclude>
             </excludes>
         </dependencySet>
     </dependencySets>

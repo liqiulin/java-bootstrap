@@ -12,7 +12,6 @@
     <modules>
         <module>nonweb-example</module>
         <module>web-example</module>
-        <module>spring-boot-example</module>
     </modules>
 
     <properties>

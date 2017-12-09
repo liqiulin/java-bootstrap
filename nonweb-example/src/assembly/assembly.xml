@@ -23,6 +23,15 @@
             <lineEnding>unix</lineEnding>
             <fileMode>0755</fileMode>
         </fileSet>
+        <fileSet>
+            <directory>src/log</directory>
+            <outputDirectory>log</outputDirectory>
+            <includes>
+                <include>*</include>
+            </includes>
+            <lineEnding>unix</lineEnding>
+            <fileMode>0755</fileMode>
+        </fileSet>
         <!-- classes -->
         <fileSet>
             <directory>${project.build.directory}/classes</directory>

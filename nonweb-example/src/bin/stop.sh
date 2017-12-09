@@ -1,5 +1,5 @@
 #日志路径
-export LOG_PATH="./logs"
+export LOG_PATH="/usr/getd/nonweb-example-1.0.0-SNAPSHOT-package/log"
 mkdir -p $LOG_PATH
 # 启动类
 export MAIN_CLASS=org.lql.startup.Bootstrap

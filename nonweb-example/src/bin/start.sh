@@ -5,12 +5,13 @@ echo -------------------------------------------
 # 设置项目代码路径
 export CODE_HOME="/usr/getd/nonweb-example-1.0.0-SNAPSHOT-package"
 #日志路径
-export LOG_PATH="D:\work\project\myself\java-bootstrap\nonweb-example\src\log"
+export LOG_PATH="/usr/getd/nonweb-example-1.0.0-SNAPSHOT-package/log"
 mkdir -p $LOG_PATH
 # 设置依赖路径
 export CLASSPATH="$CODE_HOME/classes:$CODE_HOME/lib/*"
 # java可执行文件位置
-export _EXECJAVA="$JAVA_HOME/bin/java"
+#export _EXECJAVA="$JAVA_HOME/bin/java"
+export _EXECJAVA="/usr/getd/jdk/jdk1.8.0_151/bin/java"
 # JVM启动参数
 export JAVA_OPTS="-server -Xms128m -Xmx256m -Xss256k -XX:MaxDirectMemorySize=128m"
 # 启动类

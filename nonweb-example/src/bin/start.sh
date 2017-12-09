@@ -3,9 +3,9 @@ echo -------------------------------------------
 echo start server
 echo -------------------------------------------
 # 设置项目代码路径
-export CODE_HOME="/export/App/nonweb-example-startup-package"
+export CODE_HOME="/usr/getd/nonweb-example-1.0.0-SNAPSHOT-package"
 #日志路径
-export LOG_PATH="/export/Logs/nonweb.example.org.lql"
+export LOG_PATH="./logs"
 mkdir -p $LOG_PATH
 # 设置依赖路径
 export CLASSPATH="$CODE_HOME/classes:$CODE_HOME/lib/*"

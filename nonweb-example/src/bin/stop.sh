@@ -1,5 +1,5 @@
 #日志路径
-export LOG_PATH="/export/Logs/nonweb.example.jd.local"
+export LOG_PATH="./logs"
 mkdir -p $LOG_PATH
 # 启动类
 export MAIN_CLASS=org.lql.startup.Bootstrap

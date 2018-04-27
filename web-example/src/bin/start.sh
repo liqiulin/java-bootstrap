@@ -18,5 +18,5 @@ export SERVER_INFO="-Dserver.port=8090 -Dserver.contextPath= -Dserver.docBase=$C
 # 启动类
 export MAIN_CLASS=org.lql.startup.TomcatBootstrap
 
-$_EXECJAVA $JAVA_OPTS -classpath $CLASSPATH $SERVER_INFO $MAIN_CLASS &
+nohup $_EXECJAVA $JAVA_OPTS -classpath $CLASSPATH $SERVER_INFO $MAIN_CLASS &
 tail -f $LOG_PATH/stdout.log
